@@ -74,7 +74,12 @@ body {font-family: "Open Sans"}
   <a href="https://www.instagram.com/g.lo.wares/" class="w3-bar-item w3-button"><i class="fa fa-twitter"></i></a>
   <a href="#" class="w3-bar-item w3-button"><i class="fa fa-linkedin"></i></a> -->
   
+  
   <a href="#" class="w3-bar-item w3-button w3-right"><i class="fa fa-search"></i></a>
+  
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
 </div>
   
 <!-- w3-content defines a container for fixed size centered content, 
@@ -393,6 +398,15 @@ function likeFunction(x) {
   x.style.fontWeight = "bold";
   x.innerHTML = "✓ Liked";
 }
+  
+  function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}  
 </script>
 
 </body>
