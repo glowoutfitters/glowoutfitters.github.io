@@ -13,11 +13,15 @@
 }
 
 body {
-  display: grid;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: rgba(0, 0, 0, 0.787);
   overflow: hidden;
-  
 }
+
 
 button {
   border: none;
