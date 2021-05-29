@@ -15,6 +15,7 @@
 body {
   display: grid;
   background: rgba(0, 0, 0, 0.787);
+  overflow: hidden;
   
 }
 
