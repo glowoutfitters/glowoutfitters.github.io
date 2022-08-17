@@ -211,8 +211,13 @@ img {
   perspective: 1000px;
   transform-style: preserve-3d;
   text-align: center;
-  
+	
 }
+
+//grid setup 
+$grid-columns: 9;
+.grid {@include outer-container(100%); padding: 3.125%;}
+.col-3 {@include span-columns(3); @media(max-width: 570px) {@include span-columns(9);}}
 
 	
 
