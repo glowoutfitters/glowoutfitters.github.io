@@ -195,35 +195,7 @@ p { text-align: center;}
 	
 </style>
 
-	
 
-<body>
-        <!-- Alpha.ly Version 0.1 | Development Version -->
-    <div class="container">
-    <div class="col-xs-12">
-            <div class="text-center" style="padding-top: 30px; padding-bottom: 30px;">
-                <img class="backdrop linktree" src="/images/Glowares.PNG ">
-                <h2 style="color: #ffffff; padding-top: 20px;">gLOwares</h2>
-            </div>
-    </div>
-    </div>
-
-
-    <div class="container">
-    <div class="col-xs-12">
-            <div class="text-center">
-                <div style="padding-bottom: 30px;">
-                    <button onclick="location.href='https://www.instagram.com/g.lo.wares/'" targe="_blank" type="button" class="btn btn-outline-light shake" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 800;">Insta link</button>
-                </div>
-                <div style="padding-bottom: 30px;">
-                    <button onclick="location.href='https://www.facebook.com/g.LO.wares20/'" target="_blank" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;">Facebook link</button>
-                </div>
-                <div style="padding-bottom: 30px;">
-                    <button onclick="  " target="_blank" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;">blog</button>
-                </div>
-            </div>
-    </div>
-    </div>
 
 <div class="container" style="margin-top:40px; margin-bottom:60px;">
   <div class="col-xs-12">
@@ -261,3 +233,33 @@ p { text-align: center;}
     </div>
   </div>
 </div>
+	
+
+<body>
+        <!-- Alpha.ly Version 0.1 | Development Version -->
+    <div class="container">
+    <div class="col-xs-12">
+            <div class="text-center" style="padding-top: 30px; padding-bottom: 30px;">
+                <img class="backdrop linktree" src="/images/Glowares.PNG ">
+                <h2 style="color: #ffffff; padding-top: 20px;">gLOwares</h2>
+            </div>
+    </div>
+    </div>
+
+
+    <div class="container">
+    <div class="col-xs-12">
+            <div class="text-center">
+                <div style="padding-bottom: 30px;">
+                    <button onclick="location.href='https://www.instagram.com/g.lo.wares/'" targe="_blank" type="button" class="btn btn-outline-light shake" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 800;">Insta link</button>
+                </div>
+                <div style="padding-bottom: 30px;">
+                    <button onclick="location.href='https://www.facebook.com/g.LO.wares20/'" target="_blank" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;">Facebook link</button>
+                </div>
+                <div style="padding-bottom: 30px;">
+                    <button onclick="  " target="_blank" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;">blog</button>
+                </div>
+            </div>
+    </div>
+    </div>
+
