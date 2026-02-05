@@ -2,8 +2,8 @@ name: Build Pages from Google Sheets
 on:
   push:
     branches: [ main ]
-  schedule:
-    - cron: '0 * * * *' # Optional: Runs every hour to check for sheet updates
+  #schedule: #turning off cron job for now just uncommit this area
+   # - cron: '0 * * * *' # Optional: Runs every hour to check for sheet updates
   workflow_dispatch: # Allows you to run it manually with one click
 
 jobs:
