@@ -3,7 +3,7 @@ import os
 import shutil
 
 # 1. Update this with your "Published as CSV" link from Google Sheets
-SHEET_URL = "YOUR_GOOGLE_SHEET_CSV_LINK_HERE"
+SHEET_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSjyLEY2kIFUvpkUxicEmzGnmxS47TAUMhLOfoKV5L0WzGMMekkjlLWsjG2-AcCk1W-2w_9a4LkjfKI/pub?output=csv"
 TEMPLATE_FILE = "template.html"
 OUTPUT_DIR = "products"
 
