@@ -61,7 +61,11 @@
             overflow: hidden;
             box-shadow: 0 15px 35px rgba(0,0,0,0.4);
         }
+			.slide1 { background-image: url('test'); background-color: #333; }
+			.slide2 { background-image: url('{{IMAGE_2}}'); background-color: #444; }
+			.slide3 { background-image: url('{{IMAGE_3}}'); background-color: #555; }
 
+				
         /* Logic for the 3D Slider */
         #s1:checked ~ .slide1 { transform: translate3d(0,0,0); z-index: 3; opacity: 1; }
         #s1:checked ~ .slide2 { transform: translate3d(35%,0,-150px); z-index: 2; opacity: 0.6; }
