@@ -28,6 +28,6 @@ jobs:
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-          git add reviews/*.html
-          git commit -m "Auto-generated new review pages" || exit 0
+          git add products/*.html
+          git commit -m "Auto-generated new products pages" || exit 0
           git push
