@@ -20,13 +20,13 @@ def build():
         skeleton = f.read()
 
     # Clear out old auto-generated products to keep it clean
-    if os.path.exists(OUTPUT_DIR):
-        shutil.rmtree(OUTPUT_DIR)
-    os.makedirs(OUTPUT_DIR)
+   # if os.path.exists(OUTPUT_DIR):
+    #    shutil.rmtree(OUTPUT_DIR)
+    #os.makedirs(OUTPUT_DIR)
 
     for index, row in df.iterrows():
         # Create a folder for each product (The "Slug")
-        slug = str(row['slug']).strip()
+        slug = str(row['slug']).strip().lower().replace(" ", "-")
         product_path = os.path.join(OUTPUT_DIR, slug)
         os.makedirs(product_path, exist_ok=True)
 
@@ -36,6 +36,8 @@ def build():
         page_content = page_content.replace('{{REVIEW_TEXT}}', str(row['review']))
         page_content = page_content.replace('{{AMAZON_LINK}}', str(row['amazon_url']))
         page_content = page_content.replace('{{IMAGE_1}}', str(row['img1']))
+        page_content = page_content.replace('{{IMAGE_2}}', str(row['img2']))
+        page_content = page_content.replace('{{IMAGE_3}}', str(row['img3']))
 
         # Save as index.html inside the product folder
         with open(os.path.join(product_path, 'index.html'), 'w', encoding='utf-8') as f:
